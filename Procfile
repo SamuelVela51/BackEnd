@@ -1,0 +1,1 @@
+web: gunicorn mybackEnd.wsgi -b :$PORT --timeout 120
